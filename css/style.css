@@ -17,6 +17,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /*-------------------
     HEADER
 --------------------*/
@@ -60,6 +65,47 @@
     display: flex;
     background-color: #EE82EE;
     min-height: 400px;
-    min-width: 910px;
+    width: 75%;
+    border: 2px dashed black;
+    align-content: center;
+    justify-content: center;
+}
+
+/*-------------------
+    MAIN
+--------------------*/
+
+#section1 {
+    display: flex;
+    min-height: 500px;
+}
+
+#section1 .col-left, #section2 .col-right {
+    background-color: #1E90FF;
+    width: 60%;
+    border: 2px dashed black;
+}
+
+#section1 .col-right, #section2 .col-left {
+    background-color: #FDC0CB;
+    width: 40%;
+    border: 2px dashed black;
+}
+
+#section2 {
+    display: flex;
+    min-height: 500px;
+}
+
+#section4 {
+    display: flex;
+    background-color: #D3D3D3;
+}
+
+#section4 .green-box {
+    display: flex;
+    min-height: 900px;
+    min-width: 1200px;
+    background-color: #228C21;
     border: 2px dashed black;
 }
