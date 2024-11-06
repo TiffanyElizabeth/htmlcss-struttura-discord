@@ -146,3 +146,23 @@ footer {
     width: 25%;
     border: 2px dashed white;
 }
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.footer-bottom > .container {
+    display: flex;
+    background-color: #7FFED4;
+    padding: 16px 0px;
+    justify-content: space-between;
+}
+
+.footer-logo, .btn {
+    background-color: #956E70;
+    border: 2px dashed black;
+    padding: 12px;
+}
+
