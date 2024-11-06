@@ -119,3 +119,30 @@ section {
 footer {
     background-color: #23272A;
 }
+
+.footer-top {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-top > .container {
+    display: flex;
+    min-height: 500px;
+}
+
+.footer-top .col-pink {
+    width: 30%;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+.footer-top .col-blue {
+    width: 70%;
+    background-color: #20B2AA;
+    display: flex;
+}
+
+.footer-top .col-blue > .col-inside {
+    width: 25%;
+    border: 2px dashed white;
+}
